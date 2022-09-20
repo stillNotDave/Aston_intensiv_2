@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context=".UnitChoice">
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:text="@string/back"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:backgroundTint="@color/purple_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.03"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01999998" />
+
+
+    <Button
+        android:id="@+id/unit_1"
+        android:layout_width="277dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="284dp"
+        android:background="@drawable/button_stroke_white_blue_pressed"
+        android:text="@string/unit_1"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/unit_2"
+        android:layout_width="277dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="200dp"
+        android:background="@drawable/button_stroke_white_blue_pressed"
+        android:text="@string/unit_2"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/unit_1"
+        app:layout_constraintVertical_bias="0.57" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

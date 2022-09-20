@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context=".unit2.Lesson3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/website_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/edittext_uri"
+            android:textSize="24sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:id="@+id/open_website_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_stroke_white_blue_pressed"
+            android:onClick="openWebsite"
+            android:text="@string/button_uri"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/location_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/edittext_loc"
+            android:textSize="24sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:id="@+id/open_location_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_loc"
+            android:textSize="24sp"
+            android:onClick="openLocation"
+            android:background="@drawable/button_stroke_white_blue_pressed"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/share_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/edittext_share"
+            android:textSize="24sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:id="@+id/share_text_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_share"
+            android:textSize="24sp"
+            android:onClick="shareText"
+            android:background="@drawable/button_stroke_white_blue_pressed"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <Button
+            android:id="@+id/button_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/take_a_photo"
+            android:textSize="24sp"
+            android:onClick="takeAPhoto"
+            android:background="@drawable/button_stroke_white_blue_pressed"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
